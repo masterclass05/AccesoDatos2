@@ -13,19 +13,11 @@ public class Concierto extends Evento{
 	private String[] artistasInvitados; 
 	
 
-	public Concierto(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,
-			int capacidadMaxAsistentes, Estado estado, String artistaPrincipal, String[] artistasInvitados)
-			throws CrafterException {
+
+
+	public Concierto(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,int capacidadMaxAsistentes, Estado estado, String artistaPrincipal, String[]artistasInvitados) throws CrafterException {
 		super(identificador, nombre, fecha, numEntradasVendidas, capacidadMaxAsistentes, estado);
 		this.artistaPrincipal = artistaPrincipal;
-		this.artistasInvitados = artistasInvitados;
-	}
-
-
-
-	public Concierto(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,
-			int capacidadMaxAsistentes, Estado estado) throws CrafterException {
-		super(identificador, nombre, fecha, numEntradasVendidas, capacidadMaxAsistentes, estado);
 		this.artistasInvitados= new String[10];
 	}
 
@@ -34,7 +26,9 @@ public class Concierto extends Evento{
 	@Override
 	public double calcularCosteBase() {
 		// TODO Auto-generated method stub
-		return 0;
+		int totalInvitados = artistasInvitados.length*500;
+		int total = 5000+2000+totalInvitados;
+		return total;
 	}
 
 }

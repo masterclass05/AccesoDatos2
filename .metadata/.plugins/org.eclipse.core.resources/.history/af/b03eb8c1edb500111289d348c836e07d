@@ -1,0 +1,34 @@
+package repasoJava.dia1.models;
+
+import java.time.LocalDate;
+
+import repasoJava.dia1.exceptions.CrafterException;
+
+public class EventoDeportivo extends Evento{
+	
+	boolean televisados;
+
+	public EventoDeportivo(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,
+			int capacidadMaxAsistentes, Estado estado, boolean televisados) throws CrafterException {
+		super(identificador, nombre, fecha, numEntradasVendidas, capacidadMaxAsistentes, estado);
+		this.televisados = televisados;
+	}
+
+
+	@Override
+	public double calcularCosteBase() {
+		int alquiler;
+		int total;
+		if (getCapacidadMaxAsistentes()>3000) {
+			alquiler = 150000;
+		}else {
+			alquiler = 75000;
+		}
+		if (televisados) {
+			
+		}
+		return 0;
+	}
+
+
+}

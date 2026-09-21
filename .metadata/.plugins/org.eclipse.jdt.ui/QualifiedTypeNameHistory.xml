@@ -8,4 +8,6 @@
     <fullyQualifiedTypeName name="repasoJava.dia1.exceptions.CrafterException"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="repasoJava.dia1.models.Concierto"/>
+    <fullyQualifiedTypeName name="repasoJava.dia1.models.Estado"/>
 </qualifiedTypeNameHistroy>

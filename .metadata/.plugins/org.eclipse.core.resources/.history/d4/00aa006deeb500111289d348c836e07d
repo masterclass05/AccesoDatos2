@@ -1,0 +1,32 @@
+package repasoJava.dia1.controllers;
+
+import repasoJava.dia1.exceptions.CrafterException;
+import repasoJava.dia1.models.Concierto;
+import repasoJava.dia1.models.Estado;
+import repasoJava.dia1.models.Evento;
+import repasoJava.dia1.models.EventoDeportivo;
+import repasoJava.dia1.repositories.EventoRepo;
+
+public class GestionaEvento {
+	public static void main(String[] args) {
+		EventoRepo repo = new EventoRepo();
+		Concierto c = null;
+		
+		EventoDeportivo evento = new EventoDeportivo(
+			    1, 
+			    "Final de Copa", 
+			    LocalDate.now(), 
+			    600, // numEntradasVendidas
+			    500, // capacidadMaxAsistentes
+			    Estado.PROGRAMADO, 
+			    true
+			);
+		try {
+		} catch (CrafterException e2) {
+			// TODO: handle exception
+			System.out.println("Error");
+			repo.getListaEvento().add(c);
+		}
+	
+	}
+}

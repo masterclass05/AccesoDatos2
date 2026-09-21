@@ -25,7 +25,7 @@ public abstract class Evento {
 			this.numEntradasVendidas = numEntradasVendidas;
 			this.capacidadMaxAsistentes = capacidadMaxAsistentes;
 		}else {
-			throw new CrafterException("Error");
+			throw new CrafterException("Error con la capacidad y las entradas");
 		}
 		this.nombre = nombre;
 		this.fecha = fecha;
@@ -134,12 +134,12 @@ public abstract class Evento {
 	}
 	
 	public double getPorcentajeOcupacion() {
-		double porcentaje = (numEntradasVendidas/capacidadMaxAsistentes)*100;
+		double porcentaje = (numEntradasVendidas*100)/capacidadMaxAsistentes;
 		return porcentaje;
 	}
 	
 	public double getPorcentajeOcupacion (int numeroEntradas) {
-		double porcentaje = (numeroEntradas+numEntradasVendidas)/capacidadMaxAsistentes*100;
+		double porcentaje = ((numeroEntradas+numEntradasVendidas)*100)/capacidadMaxAsistentes;
 		return porcentaje;
 	}
 	

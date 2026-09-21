@@ -5,17 +5,32 @@ import java.time.LocalDate;
 import repasoJava.dia1.exceptions.CrafterException;
 
 public class EventoDeportivo extends Evento{
+	
+	boolean televisados;
 
 	public EventoDeportivo(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,
-			int capacidadMaxAsistentes, Estado estado) throws CrafterException {
+			int capacidadMaxAsistentes, Estado estado, boolean televisados) throws CrafterException {
 		super(identificador, nombre, fecha, numEntradasVendidas, capacidadMaxAsistentes, estado);
-		// TODO Auto-generated constructor stub
+		this.televisados = televisados;
 	}
+
 
 	@Override
 	public double calcularCosteBase() {
-		// TODO Auto-generated method stub
-		return 0;
+		int alquiler;
+		int total;
+		if (getCapacidadMaxAsistentes()>3000) {
+			alquiler = 150000;
+		}else {
+			alquiler = 75000;
+		}
+		if (televisados) {
+			total = alquiler-10000;
+		}else {
+			total = alquiler;
+		}
+		return total;
 	}
+
 
 }

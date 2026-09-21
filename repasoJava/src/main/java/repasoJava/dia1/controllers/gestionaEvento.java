@@ -1,21 +1,61 @@
 package repasoJava.dia1.controllers;
 
+import java.time.LocalDate; 
 import repasoJava.dia1.exceptions.CrafterException;
 import repasoJava.dia1.models.Concierto;
+import repasoJava.dia1.models.Estado;
 import repasoJava.dia1.models.Evento;
+import repasoJava.dia1.models.EventoDeportivo;
 import repasoJava.dia1.repositories.EventoRepo;
 
-public class gestionaEvento {
+public class GestionaEvento {
 	public static void main(String[] args) {
 		EventoRepo repo = new EventoRepo();
-		Concierto c = null;
+		//Apartado 1
 		try {
-			c = new Concierto(0, null, null, 0, 0, null, null, null);
+			EventoDeportivo evento = new EventoDeportivo(
+				    1, 
+				    "Final de Copa", 
+				    LocalDate.now(), 
+				    600, // numEntradasVendidas
+				    500, // capacidadMaxAsistentes
+				    Estado.PROGRAMADO, 
+				    true
+			);
+			
+			repo.getListaEvento().add(evento);
+			
 		} catch (CrafterException e2) {
-			// TODO: handle exception
-			System.out.println("Error");
-			repo.getListaEvento().add(c);
+			System.out.println("Error al crear el evento: " + e2.getMessage());
 		}
-	
+		//Apartado 2
+		try {
+		    String[] invitados = {"Artista Invita1", "Artista Invita2"};
+
+		    Concierto concierto = new Concierto(
+		        2,                      
+		        "Rock Fest",           
+		        LocalDate.now(),        
+		        200,                    
+		        500,                   
+		        Estado.APLAZADO,        
+		        "JC",        
+		        invitados               
+		    );
+
+		    repo.getListaEvento().add(concierto);
+		    double ocupacion = concierto.getPorcentajeOcupacion(50);
+		    
+			System.out.println("El porcentaje de ocupación es del : " + ocupacion);
+			System.out.println(concierto);
+			concierto.setEstado(Estado.PROGRAMADO);
+			System.out.println(concierto);
+
+		} catch (CrafterException e) {
+		    System.out.println("Error al crear el concierto: " + e.getMessage());
+		}
+		
+		//Apartado 3
+		
 	}
 }

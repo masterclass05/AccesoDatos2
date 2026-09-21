@@ -1,0 +1,21 @@
+package repasoJava.dia1.models;
+
+import java.time.LocalDate;
+
+import repasoJava.dia1.exceptions.CrafterException;
+
+public class EventoDeportivo extends Evento{
+
+	public EventoDeportivo(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,
+			int capacidadMaxAsistentes, Estado estado) throws CrafterException {
+		super(identificador, nombre, fecha, numEntradasVendidas, capacidadMaxAsistentes, estado);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double calcularCosteBase() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
