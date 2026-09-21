@@ -1,0 +1,6 @@
+package repasoJava.dia1.models;
+
+public class Evento {
+	int identificador;
+	
+}

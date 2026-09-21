@@ -1,0 +1,28 @@
+package repasoJava.dia1;
+
+import java.io.FileNotFoundException;
+import java.sql.SQLException;
+
+public class Dia1Excepciones {
+
+	public static void main(String[] args) throws SQLException {
+		float resultado = 0;
+
+		// TODO Auto-generated method stub
+		try {
+			throw new FileNotFoundException("Lanzo excepcion controlada"); // Controlo Excepcion con try catch
+			//resultado = 100/0;
+			
+
+		} catch (ArithmeticException | FileNotFoundException e) {
+			// TODO: handle exception
+			System.out.println("Dentro del catch");
+
+		}
+		throw new SQLException("Lanzo Excepcion SQL");
+		
+	//	System.out.println(resultado);
+	
+	}
+	
+}

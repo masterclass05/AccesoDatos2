@@ -1,0 +1,17 @@
+package repasoJava.dia1.controllers;
+
+import repasoJava.dia1.exceptions.CrafterException;
+import repasoJava.dia1.models.Evento;
+import repasoJava.dia1.repositories.EventoRepo;
+
+public class gestionaEvento {
+	public static void main(String[] args) {
+		EventoRepo repo = new EventoRepo();
+		Evento e;
+		try {
+			e = new Evento()
+		} catch (CrafterException e2) {
+			// TODO: handle exception
+		}
+	}
+}

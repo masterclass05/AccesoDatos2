@@ -1,0 +1,8 @@
+package repasoJava.dia1.controllers;
+
+
+public class gestionaEvento {
+	public static void main(String[] args) {
+
+	}
+}

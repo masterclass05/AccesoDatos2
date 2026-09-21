@@ -1,0 +1,24 @@
+package repasoJava.dia1.models;
+
+import java.time.LocalDate;
+
+public class Evento {
+	private int identificador;
+	private String nombre;
+	private LocalDate fecha;
+	private int numEntradasVendidas;
+	private boolean capacidadMaxAsistentes;
+	
+	
+	public Evento(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,
+			boolean capacidadMaxAsistentes) {
+		super();
+		this.identificador = identificador;
+		this.nombre = nombre;
+		this.fecha = fecha;
+		this.numEntradasVendidas = numEntradasVendidas;
+		this.capacidadMaxAsistentes = capacidadMaxAsistentes;
+	}
+	
+	
+}

@@ -1,0 +1,11 @@
+package repasoJava.dia1.models;
+
+import java.time.LocalDate;
+
+public class Evento {
+	private int identificador;
+	private String nombre;
+	private LocalDate fecha;
+	private int numEntradasVendidas;
+	private boolean capacidadMaxAsistentes;
+}

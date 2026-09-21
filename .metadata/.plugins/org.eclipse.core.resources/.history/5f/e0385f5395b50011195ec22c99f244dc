@@ -1,0 +1,23 @@
+package repasoJava.dia1.repositories;
+
+import java.util.List;
+import repasoJava.dia1.models.*;
+
+public class EventoRepo {
+	private List<Evento> listaEvento;
+
+	public EventoRepo() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public List<Evento> getRepo() {
+		return listaEvento;
+	}
+
+	public void setRepo(List<Evento> repo) {
+		this.listaEvento = repo;
+	}
+	
+	
+}

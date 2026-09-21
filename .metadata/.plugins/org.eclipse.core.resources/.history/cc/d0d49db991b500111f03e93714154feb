@@ -1,0 +1,8 @@
+package repasoJava.dia1.repositories;
+
+import java.awt.List;
+import repasoJava.
+
+public class EventoRepo {
+	List<Evento> repo;
+}
