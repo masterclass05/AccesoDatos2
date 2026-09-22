@@ -13,9 +13,6 @@ public abstract class Evento {
 	private int capacidadMaxAsistentes;
 	private Estado estado;
 	
-	
-	
-
 
 	public Evento(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,
 			int capacidadMaxAsistentes, Estado estado) throws CrafterException {
@@ -29,7 +26,6 @@ public abstract class Evento {
 		}
 		this.nombre = nombre;
 		this.fecha = fecha;
-
 		this.estado = estado;
 	}
 
@@ -82,8 +78,6 @@ public abstract class Evento {
 	public void setCapacidadMaxAsistentes(int capacidadMaxAsistentes) {
 		this.capacidadMaxAsistentes = capacidadMaxAsistentes;
 	}
-	
-	
 
 
 	public Estado getEstado() {
@@ -145,6 +139,12 @@ public abstract class Evento {
 	
 	public abstract double calcularCosteBase();
 	
-	
-	
+	public boolean verificaDatos(int numEntradasVendidas, int capacidadMaxAsistentes) throws CrafterException {
+		boolean devuelve = true;
+		if (!(numEntradasVendidas <= capacidadMaxAsistentes && capacidadMaxAsistentes>0)) {
+			devuelve = false;
+			throw new CrafterException("Error");
+		}
+		return devuelve;
+	}
 }

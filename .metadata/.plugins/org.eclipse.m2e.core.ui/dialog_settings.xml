@@ -45,11 +45,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Biblioteca"/>
 			<item value="psp"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Biblioteca"/>
 			<item value="repasoJava"/>
 		</list>
 		<list key="projectNameTemplate">

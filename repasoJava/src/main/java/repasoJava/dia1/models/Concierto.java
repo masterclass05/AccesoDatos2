@@ -15,7 +15,7 @@ public class Concierto extends Evento{
 
 
 
-	public Concierto(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,int capacidadMaxAsistentes, Estado estado, String artistaPrincipal, String[]artistasInvitados) throws CrafterException {
+	public Concierto(int identificador, String nombre, LocalDate fecha, int numEntradasVendidas,int capacidadMaxAsistentes, Estado estado, String artistaPrincipal) throws CrafterException {
 		super(identificador, nombre, fecha, numEntradasVendidas, capacidadMaxAsistentes, estado);
 		this.artistaPrincipal = artistaPrincipal;
 		this.artistasInvitados= new String[10];

@@ -56,6 +56,31 @@ public class GestionaEvento {
 		}
 		
 		//Apartado 3
+		try {
+			
 		
+		    String[] invitados2 = {"Artista Invita1", "Artista Invita2, Artista Invita3"};
+
+			Concierto concierto2 = new Concierto(
+			        3,                      
+			        "Regueton",           
+			        LocalDate.now(),        
+			        500,                    
+			        500,                   
+			        Estado.PENDIENTE,        
+			        "JC",        
+			        invitados2               
+			    );
+			
+			 concierto2.setNumEntradasVendidas(20);
+
+		} catch (CrafterException e3) {
+			// TODO: handle exception
+			System.out.println("Se han superado las entradas máximas");
+			
+		}
+		
+
+
 	}
 }

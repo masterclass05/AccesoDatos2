@@ -5,9 +5,9 @@
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="repasoJava.dia1.repositories.EventoRepo"/>
-    <fullyQualifiedTypeName name="repasoJava.dia1.exceptions.CrafterException"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="repasoJava.dia1.models.Concierto"/>
     <fullyQualifiedTypeName name="repasoJava.dia1.models.Estado"/>
+    <fullyQualifiedTypeName name="repasoJava.dia1.exceptions.CrafterException"/>
 </qualifiedTypeNameHistroy>
