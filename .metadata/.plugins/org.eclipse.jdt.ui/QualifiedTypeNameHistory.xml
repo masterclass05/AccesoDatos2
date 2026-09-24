@@ -10,4 +10,7 @@
     <fullyQualifiedTypeName name="repasoJava.dia1.models.Concierto"/>
     <fullyQualifiedTypeName name="repasoJava.dia1.models.Estado"/>
     <fullyQualifiedTypeName name="repasoJava.dia1.exceptions.CrafterException"/>
+    <fullyQualifiedTypeName name="controlador.GestionaBiblioteca"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="modelo.Usuario"/>
 </qualifiedTypeNameHistroy>
