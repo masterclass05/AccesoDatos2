@@ -1,0 +1,7 @@
+2026-09-28 20:09:49.400 [main] DEBUG controlador.GestionaBiblioteca - Esta bien
+2026-09-28 20:29:25.288 [main] DEBUG controlador.GestionaBiblioteca - Esta bien
+2026-09-28 20:29:25.290 [main] DEBUG controlador.GestionaBiblioteca - Mensaje DEBUG
+2026-09-28 20:29:25.290 [main] INFO  controlador.GestionaBiblioteca - Mensaje INFO
+2026-09-28 20:29:25.290 [main] WARN  controlador.GestionaBiblioteca - Mensaje WARN
+2026-09-28 20:29:25.291 [main] ERROR controlador.GestionaBiblioteca - Mensaje ERROR
+2026-09-28 20:29:25.291 [main] FATAL controlador.GestionaBiblioteca - Mensaje FATAL

@@ -11,8 +11,12 @@ public class GestionaBiblioteca {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		logger.debug("Esta bien");
-		System.out.println("Esta mal");
+        logger.debug("Mensaje DEBUG");
+        logger.info("Mensaje INFO");
+        logger.warn("Mensaje WARN");
+        logger.error("Mensaje ERROR");
+        logger.fatal("Mensaje FATAL");		
+
 	}
 
 }
