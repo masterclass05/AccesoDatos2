@@ -29,7 +29,7 @@ public class GestionaEvento {
 			System.out.println("Error al crear el evento: " + e2.getMessage());
 		}
 		//Apartado 2
-		try {
+		/*try {
 		    String[] invitados = {"Artista Invita1", "Artista Invita2"};
 
 		    Concierto concierto = new Concierto(
@@ -79,7 +79,7 @@ public class GestionaEvento {
 			System.out.println("Se han superado las entradas máximas");
 			
 		}
-		
+		*/
 
 
 	}

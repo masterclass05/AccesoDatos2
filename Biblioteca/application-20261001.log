@@ -1,0 +1,5 @@
+2026-10-01 09:02:47.343 [main] INFO  controlador.GestionaBiblioteca - El fichero fue creado con éxito en: C:\Users\alumno\Desktop\Prueba\fichero.txt
+2026-10-01 09:03:00.268 [main] INFO  controlador.GestionaBiblioteca - Directorio creado correctamente: C:\Users\alumno\Desktop\H
+2026-10-01 09:03:00.270 [main] INFO  controlador.GestionaBiblioteca - El fichero fue creado con éxito en: C:\Users\alumno\Desktop\H\fichero.txt
+2026-10-01 09:18:53.240 [main] INFO  controlador.GestionaBiblioteca - El fichero ya existía en la ruta especificada.
+2026-10-01 09:24:27.387 [main] INFO  controlador.GestionaBiblioteca - El fichero ya existía en la ruta especificada.
