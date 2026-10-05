@@ -45,12 +45,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Unidad1File"/>
+			<item value="EldenRing"/>
 			<item value="Biblioteca"/>
 			<item value="psp"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Unidad1File"/>
+			<item value="EldenRing"/>
 			<item value="Biblioteca"/>
 			<item value="repasoJava"/>
 		</list>

@@ -19,7 +19,7 @@ public class Boletin1_1 {
     	logger.info("Dime la ruta del directorio");
     	String ruta = scanner.nextLine();
     	
-    	String userHome = System.getProperty("user.home");
+    	String userHome = System.getProperty("user.home"); 
         Path rutaDirectorio = Paths.get(userHome, ruta);
         
         File directorio = rutaDirectorio.toFile();
@@ -28,17 +28,15 @@ public class Boletin1_1 {
         int contadorF = 0;
 
     	if (directorio.isDirectory() && directorio.exists()) {
-    		 for(File f : directorio.listFiles())//Listamos el contenido del directorio
+    		 for(File f : directorio.listFiles()) //Listamos el contenido del directorio
              {
           	   if (f.isFile()) {
-      			 System.out.println("[F]"+f.getName());
+      			 logger.info("[F]"+f.getName()); //Nombre del archivo
       			 contadorF++;
 
 			} else if (f.isDirectory()) {
-     			 System.out.println("[D]"+f.getName());
+     			logger.info("[D]"+f.getName()); //Nombre del directorio
      			 contadorD++;
-			}else {
-     			 System.out.println("[Ni dea]"+f.getName());
 			}
              }
     		logger.info("Hay un total de " + contadorD+" directorios y "+contadorF+" ficheros");

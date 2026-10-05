@@ -13,4 +13,8 @@
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="modelo.Usuario"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Excepciones.RutaNoValidaException"/>
+    <fullyQualifiedTypeName name="java.lang.NoClassDefFoundError"/>
 </qualifiedTypeNameHistroy>
