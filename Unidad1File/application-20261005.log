@@ -2453,3 +2453,73 @@
 2026-10-05 12:33:44.752 [main] INFO  Controlador.Boletin1_4 - Fichero:pom.properties
 2026-10-05 12:33:44.752 [main] INFO  Controlador.Boletin1_4 - Fichero:pom.xml
 2026-10-05 12:33:44.752 [main] INFO  Controlador.Boletin1_4 - Directorio:test-classes
+2026-10-05 13:46:03.340 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 13:46:09.480 [main] INFO  Controlador.Boletin1_2 - Nombre: 
+2026-10-05 13:46:09.480 [main] INFO  Controlador.Boletin1_2 - Ruta tal como se ha escrito: 
+2026-10-05 13:46:48.691 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 13:46:53.696 [main] INFO  Controlador.Boletin1_2 - Nombre: Desktop
+2026-10-05 13:46:53.697 [main] INFO  Controlador.Boletin1_2 - Ruta tal como se ha escrito: 
+2026-10-05 13:47:08.886 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 13:47:13.424 [main] INFO  Controlador.Boletin1_2 - Nombre: Desktop
+2026-10-05 13:47:13.424 [main] INFO  Controlador.Boletin1_2 - Ruta tal como se ha escrito: Desktop
+2026-10-05 13:49:01.928 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 13:49:05.691 [main] INFO  Controlador.Boletin1_2 - Nombre: Desktop
+2026-10-05 13:49:05.691 [main] INFO  Controlador.Boletin1_2 - Ruta tal como se ha escrito: Desktop
+2026-10-05 13:49:05.692 [main] INFO  Controlador.Boletin1_2 - Ruta absoluta: C:\Users\Usuario\Desktop
+2026-10-05 13:49:05.692 [main] INFO  Controlador.Boletin1_2 - Ruta canónica: C:\Users\Usuario\Desktop
+2026-10-05 13:50:52.960 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 13:50:56.373 [main] INFO  Controlador.Boletin1_2 - Nombre: Desktop
+2026-10-05 13:50:56.373 [main] INFO  Controlador.Boletin1_2 - Ruta tal como se ha escrito: Desktop
+2026-10-05 13:50:56.373 [main] INFO  Controlador.Boletin1_2 - Ruta absoluta: C:\Users\Usuario\Desktop
+2026-10-05 13:50:56.374 [main] INFO  Controlador.Boletin1_2 - Ruta canónica: C:\Users\Usuario\Desktop
+2026-10-05 13:50:56.374 [main] INFO  Controlador.Boletin1_2 - Directorio padre: C:\Users\Usuario
+2026-10-05 21:30:25.150 [main] INFO  Controlador.Boletin1_4 - Fichero:Desktop
+2026-10-05 21:33:39.498 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 21:34:23.376 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 21:34:42.603 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 21:35:07.852 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 21:37:32.171 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 21:37:35.273 [main] INFO  Controlador.Boletin1_2 - Nombre: Desktop
+2026-10-05 21:37:35.274 [main] INFO  Controlador.Boletin1_2 - Ruta tal como se ha escrito: Desktop
+2026-10-05 21:37:35.274 [main] INFO  Controlador.Boletin1_2 - Ruta absoluta: C:\Users\Usuario\Desktop
+2026-10-05 21:37:35.274 [main] INFO  Controlador.Boletin1_2 - Ruta canónica: C:\Users\Usuario\Desktop
+2026-10-05 21:37:35.274 [main] INFO  Controlador.Boletin1_2 - Directorio padre: C:\Users\Usuario
+2026-10-05 21:37:35.274 [main] INFO  Controlador.Boletin1_2 - Es un directorio
+2026-10-05 21:37:35.275 [main] INFO  Controlador.Boletin1_2 - true
+2026-10-05 21:37:35.275 [main] INFO  Controlador.Boletin1_2 - true
+2026-10-05 21:37:35.275 [main] INFO  Controlador.Boletin1_2 - true
+2026-10-05 21:41:06.349 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 21:41:10.262 [main] INFO  Controlador.Boletin1_2 - Nombre: Desktop
+2026-10-05 21:41:10.263 [main] INFO  Controlador.Boletin1_2 - Ruta tal como se ha escrito: Desktop
+2026-10-05 21:41:10.263 [main] INFO  Controlador.Boletin1_2 - Ruta absoluta: C:\Users\Usuario\Desktop
+2026-10-05 21:41:10.263 [main] INFO  Controlador.Boletin1_2 - Ruta canónica: C:\Users\Usuario\Desktop
+2026-10-05 21:41:10.263 [main] INFO  Controlador.Boletin1_2 - Directorio padre: C:\Users\Usuario
+2026-10-05 21:41:10.263 [main] INFO  Controlador.Boletin1_2 - Es un directorio
+2026-10-05 21:41:10.264 [main] INFO  Controlador.Boletin1_2 - Permiso Lectura: true
+2026-10-05 21:41:10.264 [main] INFO  Controlador.Boletin1_2 - Permiso de Escritura: true
+2026-10-05 21:41:10.264 [main] INFO  Controlador.Boletin1_2 - Permiso de Ejecución: true
+2026-10-05 21:41:10.264 [main] INFO  Controlador.Boletin1_2 - Esta oculto: false
+2026-10-05 21:44:09.499 [main] INFO  Controlador.Boletin1_2 - Introduce la ruta del directorio
+2026-10-05 21:44:12.955 [main] INFO  Controlador.Boletin1_2 - Nombre: Desktop
+2026-10-05 21:44:12.955 [main] INFO  Controlador.Boletin1_2 - Ruta tal como se ha escrito: Desktop
+2026-10-05 21:44:12.955 [main] INFO  Controlador.Boletin1_2 - Ruta absoluta: C:\Users\Usuario\Desktop
+2026-10-05 21:44:12.955 [main] INFO  Controlador.Boletin1_2 - Ruta canónica: C:\Users\Usuario\Desktop
+2026-10-05 21:44:12.956 [main] INFO  Controlador.Boletin1_2 - Directorio padre: C:\Users\Usuario
+2026-10-05 21:44:12.956 [main] INFO  Controlador.Boletin1_2 - Es un directorio
+2026-10-05 21:44:12.956 [main] INFO  Controlador.Boletin1_2 - Permiso Lectura: true
+2026-10-05 21:44:12.956 [main] INFO  Controlador.Boletin1_2 - Permiso de Escritura: true
+2026-10-05 21:44:12.956 [main] INFO  Controlador.Boletin1_2 - Permiso de Ejecución: true
+2026-10-05 21:44:12.956 [main] INFO  Controlador.Boletin1_2 - Esta oculto: false
+2026-10-05 21:44:12.956 [main] INFO  Controlador.Boletin1_2 - Tamaño en bytes: 16384
+2026-10-05 21:44:12.957 [main] INFO  Controlador.Boletin1_2 - Número de elementos: 41
+2026-10-05 21:44:12.957 [main] INFO  Controlador.Boletin1_2 - Fecha de ultima modificación: 1790350722512
+2026-10-05 22:42:09.449 [main] INFO  Controlador.Boletin1_3 - Directorio creado: C:\Users\Usuario\miDirectorio
+2026-10-05 22:42:09.451 [main] INFO  Controlador.Boletin1_3 - Fichero creado: lectura.txt
+2026-10-05 22:42:09.451 [main] INFO  Controlador.Boletin1_3 - Fichero creado: normal.txt
+2026-10-05 22:42:09.451 [main] INFO  Controlador.Boletin1_3 - lectura.txt marcado como solo lectura
+2026-10-05 22:42:09.452 [main] INFO  Controlador.Boletin1_3 - 	lectura.txt -> lectura: sí | escritura: no | ejecución: sí
+2026-10-05 22:42:09.452 [main] INFO  Controlador.Boletin1_3 - 	normal.txt -> lectura: sí | escritura: sí | ejecución: sí
+2026-10-05 22:42:09.453 [main] INFO  Controlador.Boletin1_3 - normal.txt renombrado a renombrado.txt
+2026-10-05 22:42:09.454 [main] INFO  Controlador.Boletin1_3 - lectura.txt borrado
+2026-10-05 22:42:09.454 [main] INFO  Controlador.Boletin1_3 - Contenido final de miDirectorio:
+2026-10-05 22:42:09.454 [main] INFO  Controlador.Boletin1_3 - 	renombrado.txt
