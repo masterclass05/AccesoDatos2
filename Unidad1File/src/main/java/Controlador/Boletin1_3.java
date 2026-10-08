@@ -86,7 +86,7 @@ public class Boletin1_3 {
         if (fLectura.delete()) {
             logger.info("lectura.txt borrado");
         } else {
-            logger.warn("No se ha podido borrar lectura.txt");
+            logger.error("No se ha podido borrar lectura.txt");
             if (fLectura.setWritable(true)) {
                 logger.info("Permiso de escritura restaurado en lectura.txt");
                 if (fLectura.delete()) {
