@@ -52,7 +52,14 @@ public class DiffFolder {
 	public Collection<ResultadoComparacion> comparame(){
 		Collection<ResultadoComparacion> coleccion = null;
 		int cantidad1 = dir1.listFiles().length;
-		int cantidad2 = dir1.listFiles().length;
+		int cantidad2 = dir2.listFiles().length;
+		if(cantidad1>cantidad2) {
+			//for dir 1 y comparo
+		}else {
+			for (File f : dir2.listFiles()) {
+				
+			}
+		}
 		return coleccion;
 	}
 }
