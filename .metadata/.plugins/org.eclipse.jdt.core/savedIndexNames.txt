@@ -6,4 +6,3 @@ INDEX VERSION 1.134+C:\Users\alumno\Desktop\AccesoDatos2\.metadata\.plugins\org.
 3772730432.index
 1283376873.index
 1552631659.index
-2657171946.index

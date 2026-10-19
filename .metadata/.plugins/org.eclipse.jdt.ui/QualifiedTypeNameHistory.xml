@@ -17,7 +17,9 @@
     <fullyQualifiedTypeName name="Excepciones.RutaNoValidaException"/>
     <fullyQualifiedTypeName name="java.lang.NoClassDefFoundError"/>
     <fullyQualifiedTypeName name="java.nio.file.DirectoryIteratorException"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Controlador.Comparador1_8"/>
     <fullyQualifiedTypeName name="Boletin2.DiffFolderException"/>
+    <fullyQualifiedTypeName name="Modelo.Persona"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
 </qualifiedTypeNameHistroy>
