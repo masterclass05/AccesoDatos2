@@ -1,5 +1,0 @@
-package repasoJava.dia1.exceptions;
-
-public class CrafterException extends Exception{
-
-}
