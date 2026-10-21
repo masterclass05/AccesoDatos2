@@ -1,6 +1,7 @@
 package Boletin2;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Collection;
 
 public class DiffFolder {
@@ -50,7 +51,7 @@ public class DiffFolder {
 
 
 	public Collection<ResultadoComparacion> comparame(){
-		Collection<ResultadoComparacion> coleccion = null;
+		Collection<ResultadoComparacion> coleccion = new ArrayList<>();
 		int cantidad1 = dir1.listFiles().length;
 		int cantidad2 = dir2.listFiles().length;
 		if(cantidad1>cantidad2) {
