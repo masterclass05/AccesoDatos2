@@ -103,7 +103,7 @@ public class RepositorioPersonasTxt implements IRepositorioPersonas{
 	public void save(Persona persona) throws RepositorioException {
 		// TODO Auto-generated method stub
 		Persona byId = findById(persona.getNombre());
-		
+			
 			personas.add(persona);
 			persona.escribePersonas(personas, ruta);
 		
@@ -113,12 +113,16 @@ public class RepositorioPersonasTxt implements IRepositorioPersonas{
 	@Override
 	public boolean deleteById(String nombre) throws RepositorioException {
 		// TODO Auto-generated method stub
-		for (Persona p : personas) {
+		Iterator<Persona> it = personas.iterator();
+		boolean borrado = false;
+		while (it.hasNext() && !borrado) {
+			Persona p = it.next();
 			if (p.getNombre().equals(nombre)) {
-				
+				it.remove();
+				borrado = true;
 			}
 		}
-		return false;
+		return borrado;
 	}
 
 	@Override
