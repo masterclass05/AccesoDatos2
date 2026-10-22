@@ -56,8 +56,11 @@ public class DiffFolder {
 		int cantidad2 = dir2.listFiles().length;
 		if(cantidad1>cantidad2) {
 			//for dir 1 y comparo
+			for (File f1 : dir1.listFiles()) {
+
+			}
 		}else {
-			for (File f : dir2.listFiles()) {
+			for (File f2 : dir2.listFiles()) {
 				
 			}
 		}
