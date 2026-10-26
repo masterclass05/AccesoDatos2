@@ -295,3 +295,23 @@
 2026-10-22 18:15:15.301: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-10-22 18:15:15.301: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-10-22 19:37:50.163: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-26 07:08:18.534: [INFO] CurrentProfilePath: C:\Users\alumno\Desktop\AccesoDatos2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-26 07:08:18.534: [INFO] Profiles total count: 1
+2026-10-26 07:08:18.534: [INFO] Profile: name=Perfil 1 path=C:\Users\alumno\Desktop\AccesoDatos2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-22T06:11:21.603Z
+2026-10-26 07:08:18.534: [INFO] LastUsedProfileDir: C:\Users\alumno\Desktop\AccesoDatos2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-26 07:08:18.534: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\alumno\Desktop\AccesoDatos2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-22T06:11:21.603Z
+2026-10-26 07:08:18.534: [INFO] OnDoneLoading sync enabled: 0
+2026-10-26 07:08:18.534: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-26 07:08:18.534: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-26 07:08:18.534: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-26 07:15:05.453: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-26 08:41:48.849: [INFO] CurrentProfilePath: C:\Users\alumno\Desktop\AccesoDatos2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-26 08:41:48.849: [INFO] Profiles total count: 1
+2026-10-26 08:41:48.849: [INFO] Profile: name=Perfil 1 path=C:\Users\alumno\Desktop\AccesoDatos2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T07:15:04.094Z
+2026-10-26 08:41:48.849: [INFO] LastUsedProfileDir: C:\Users\alumno\Desktop\AccesoDatos2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-10-26 08:41:48.849: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\alumno\Desktop\AccesoDatos2\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-10-26T07:15:04.094Z
+2026-10-26 08:41:48.849: [INFO] OnDoneLoading sync enabled: 0
+2026-10-26 08:41:48.849: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-26 08:41:48.849: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-26 08:41:48.849: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-26 11:30:08.919: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

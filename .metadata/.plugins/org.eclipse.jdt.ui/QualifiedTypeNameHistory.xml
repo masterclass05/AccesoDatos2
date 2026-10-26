@@ -23,4 +23,5 @@
     <fullyQualifiedTypeName name="javax.net.ssl.SSLPeerUnverifiedException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Controlador.GestionaPersonas"/>
 </qualifiedTypeNameHistroy>
