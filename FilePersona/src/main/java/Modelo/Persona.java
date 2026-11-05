@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
+import com.google.gson.Gson;
+
 public class Persona {
 	private Double nota_min;
 	private Double nota_max;
@@ -105,4 +107,7 @@ public class Persona {
 				}
 			}
 		}
+		
+
+		
 }

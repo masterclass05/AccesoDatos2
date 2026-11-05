@@ -8,29 +8,36 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.google.gson.Gson;
 
 import Modelo.Empleado;
 
 public class GestionaPersonas {
 	static String rutaJava = "src\\main\\java";
-	static String rutaResources = "src\\main\\resources";
+	static String rutaResources = "src\\main\\resources\\";
 	static String ficheroTxt = "src\\main\\java\\Fichero1.txt";
 	static String ficheroJson = "src\\main\\resources\\Empleado.json";
 
 
+    private static final Logger logger = LogManager.getLogger(GestionaPersonas.class);
 
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		logger.info("tambien llega5343");
+
 		GestionaPersonas g = new GestionaPersonas();
 		Empleado e1 = new Empleado("id1", "Pepa", 21, "Logitech");
 		Empleado e2 = new Empleado("id2", "Juan", 18, "Nike");
 		List<Empleado> empleados = new ArrayList<Empleado>();
 		empleados.add(e1);
 		empleados.add(e2);
-		g.escribeEmpleados(empleados, rutaResources+"Salida.json");
-
+		g.escribeEmpleado(e2, rutaResources+"Salida1.json");
+		g.escribeEmpleados2(empleados, (rutaResources+"Salida.json"));
+		logger.info("tambien llega");
 	}
 
 	public void leeEmpleados(String rutaFichero) {
@@ -42,8 +49,8 @@ public class GestionaPersonas {
 			e.printStackTrace();
 		}
 		Gson gson = new Gson();
-		/*Empleado empleado = gson.fromJson(fichero, Empleado.class);
-		System.out.println(empleado);*/
+		Empleado empleado = gson.fromJson(fichero, Empleado.class);
+		System.out.println(empleado);
 		 Empleado[] empleadosArray = gson.fromJson(fichero,Empleado[].class);
 		 List<Empleado> empleados = Arrays.asList(empleadosArray);
 		 System.out.println(empleados);
@@ -53,6 +60,7 @@ public class GestionaPersonas {
 		for (Empleado e : lista) {
 			escribeEmpleado(e, rutaFicheroSalida);
 		}
+		System.out.println("Llega");
 	}
 	
 	public void escribeEmpleado(Empleado empleado, String ruta)
@@ -72,5 +80,29 @@ public class GestionaPersonas {
 				} catch (IOException e) {
 					System.out.println("Error al escribir empleado");
 				}			}		}	   }
+	
+	public void escribeEmpleados2(List<Empleado> lista, String ruta) {	// Convertir el objeto a JSON
+		Gson gson = new Gson();
+		String json = gson.toJson(lista);
+		// Escribir el JSON en un archivo
+		FileWriter writer = null;
+		try {
+			writer = new FileWriter(ruta);
+			writer.write(json);
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (writer != null) {
+				try {
+					writer.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} 
+				} 
 
-}
+		}	
+		}	
+	}
+
+

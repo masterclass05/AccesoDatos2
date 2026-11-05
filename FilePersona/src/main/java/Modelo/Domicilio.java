@@ -7,8 +7,6 @@ public class Domicilio {
 	private String codigoPostal;
 	
 	
-	
-	
 	public Domicilio() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -55,15 +53,6 @@ public class Domicilio {
 	public void setCodigoPostal(String codigoPostal) {
 		this.codigoPostal = codigoPostal;
 	}
-
-
-
-
-
-
-
-
-
 
 
 

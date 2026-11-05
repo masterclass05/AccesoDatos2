@@ -103,7 +103,10 @@ public class RepositorioPersonasTxt implements IRepositorioPersonas{
 	public void save(Persona persona) throws RepositorioException {
 		// TODO Auto-generated method stub
 		Persona byId = findById(persona.getNombre());
-			
+			if (personas.contains(byId)) {
+				personas.remove(byId);
+				personas.add(persona);
+			}else
 			personas.add(persona);
 			persona.escribePersonas(personas, ruta);
 		
