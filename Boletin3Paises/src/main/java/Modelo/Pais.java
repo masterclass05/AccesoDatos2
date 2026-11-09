@@ -6,18 +6,19 @@ public class Pais {
 	private String nombre;
 	private String continente;
 	private int poblacion;
-	private String idioma;
+	private ArrayList<String> idioma;
 	private String moneda;
 	
-	public Pais(String nombre, String continente, int poblacion, String idioma, String moneda) {
-		super();
-		this.nombre = nombre;
-		this.continente = continente;
-		this.poblacion = poblacion;
-		this.idioma = idioma;
-		this.moneda = moneda;
+	
+	public Pais(String nombre, String continente, int poblacion, ArrayList<String> idioma, String moneda) {
+	    super();
+	    this.nombre = nombre;
+	    this.continente = continente;
+	    this.poblacion = poblacion;
+	    this.idioma = new ArrayList<String>(idioma);
+	    this.moneda = moneda;
 	}
-
+	
 	public Pais() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -47,11 +48,11 @@ public class Pais {
 		this.poblacion = poblacion;
 	}
 
-	public String getIdioma() {
+	public ArrayList<String> getIdioma() {
 		return idioma;
 	}
 
-	public void setIdioma(String idioma) {
+	public void setIdioma(ArrayList<String> idioma) {
 		this.idioma = idioma;
 	}
 

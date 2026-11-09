@@ -87,7 +87,7 @@ public class Persona {
 		public static void escribePersonas(List<Persona> personas, String rutaFichero) {
 			PrintWriter out = null;
 			try {
-				FileWriter ficheroSalida = new FileWriter(rutaFichero, StandardCharsets.UTF_8);
+				FileWriter ficheroSalida = new FileWriter(rutaFichero);
 				// abre el fichero de texto
 				out = new PrintWriter(ficheroSalida);
 				// escribe el listado persona a persona

@@ -1,0 +1,14 @@
+[
+  {
+    "identificador": "empleado24",
+    "nombreApellido": "Ana Gómez",
+    "edad": 28,
+    "empresa": "Empresa A"
+  },
+  {
+    "identificador": "empleado25",
+    "nombreApellido": "Carlos Ruiz",
+    "edad": 35,
+    "empresa": "Empresa B"
+  }
+]

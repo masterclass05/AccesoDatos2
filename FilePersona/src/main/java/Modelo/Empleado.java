@@ -1,65 +1,61 @@
 package Modelo;
 
 public class Empleado {
-	private String identificador;
-	private String nombreApellido;
-	private int edad;
-	private String empresa;
-	
-	public Empleado(String identificador, String nombreApellido, int edad, String empresa) {
-		super();
-		this.identificador = identificador;
-		this.nombreApellido = nombreApellido;
-		this.edad = edad;
-		this.empresa = empresa;
-	}
-	
-	
 
-	public Empleado() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+    private String identificador;
+    private String nombreApellido;
+    private int edad;
+    private String empresa;
 
+    public Empleado() {
+    }
 
+    public Empleado(String identificador, String nombreApellido,
+                    int edad, String empresa) {
 
-	public String getIdentificador() {
-		return identificador;
-	}
+        this.identificador = identificador;
+        this.nombreApellido = nombreApellido;
+        this.edad = edad;
+        this.empresa = empresa;
+    }
 
-	public void setIdentificador(String identificador) {
-		this.identificador = identificador;
-	}
+    public String getIdentificador() {
+        return identificador;
+    }
 
-	public String getNombreApellido() {
-		return nombreApellido;
-	}
+    public void setIdentificador(String identificador) {
+        this.identificador = identificador;
+    }
 
-	public void setNombreApellido(String nombreApellido) {
-		this.nombreApellido = nombreApellido;
-	}
+    public String getNombreApellido() {
+        return nombreApellido;
+    }
 
-	public int getEdad() {
-		return edad;
-	}
+    public void setNombreApellido(String nombreApellido) {
+        this.nombreApellido = nombreApellido;
+    }
 
-	public void setEdad(int edad) {
-		this.edad = edad;
-	}
+    public int getEdad() {
+        return edad;
+    }
 
-	public String getEmpresa() {
-		return empresa;
-	}
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
 
-	public void setEmpresa(String empresa) {
-		this.empresa = empresa;
-	}
+    public String getEmpresa() {
+        return empresa;
+    }
 
-	@Override
-	public String toString() {
-		return "Empleado [identificador=" + identificador + ", nombreApellido=" + nombreApellido + ", edad=" + edad
-				+ ", empresa=" + empresa + "]";
-	}
-	
-	
+    public void setEmpresa(String empresa) {
+        this.empresa = empresa;
+    }
+
+    @Override
+    public String toString() {
+        return "Empleado [identificador=" + identificador
+                + ", nombreApellido=" + nombreApellido
+                + ", edad=" + edad
+                + ", empresa=" + empresa + "]";
+    }
 }
