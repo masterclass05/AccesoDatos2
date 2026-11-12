@@ -25,5 +25,8 @@
     <fullyQualifiedTypeName name="Controlador.GestionaPersonas"/>
     <fullyQualifiedTypeName name="Repositorio.RepositorioPaises"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="Controlador.GestionaLibro"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+    <fullyQualifiedTypeName name="Utilidades.UtilesDomXML"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
