@@ -127,28 +127,28 @@ public class RepositorioPaises {
 		
 		public boolean agregarPais(String nombre, String continente, int poblacion,
             ArrayList<String> idiomas, String moneda) {
-			boolean a�adido = true;
+			boolean añadido = true;
 			if (nombre == null || nombre.trim().isEmpty()) {
 				logger.error("El apartado nombre del país es obligatorio.");
-				a�adido = false;
+				añadido = false;
 			}else if(continente == null || continente.trim().isEmpty() ){
 				logger.error("El apartado continente es obligatorio");
-				a�adido = false;
+				añadido = false;
 			}
 			
 			for (Pais p : paises) {
 			if (p.getNombre().equals(nombre)) {
 				logger.error("Ya existe un país con ese nombre.");
-				a�adido = false;
+				añadido = false;
 				}
 			}
-			if (a�adido) {
+			if (añadido) {
 				Pais nuevoPais = new Pais(nombre, continente, poblacion, idiomas, moneda);
-				a�adido = paises.add(nuevoPais);
+				añadido = paises.add(nuevoPais);
 				escribePaises(paises, ruta);
 			}		
 			
-			return a�adido;
+			return añadido;
 			}
 		
 		public void encuentraPais(String nombre) {
@@ -164,7 +164,7 @@ public class RepositorioPaises {
 			}
 		}
 		
-		public void a�adeIdioma(String nombre, String idioma) {
+		public void añadeIdioma(String nombre, String idioma) {
 			ArrayList<String> idiomas = new ArrayList<String>();
 			for (Pais p : paises) {
 				if (p.getNombre().equals(nombre)) {
