@@ -21,7 +21,7 @@ public class MainJson {
         String rutaEmpleados ="src\\main\\resources\\empleados.json";
 
         // 1. Leer un único empleado
-        Empleado empleado = fromJsonToEmpleado(rutaEmpleado);
+      /*  Empleado empleado = fromJsonToEmpleado(rutaEmpleado);
 
         if (empleado != null) {
             System.out.println("Empleado leído: " + empleado);
@@ -50,7 +50,8 @@ public class MainJson {
 
         escribeEmpleados(
                 listaNuevosEmpleados, "src\\main\\resources\\empleadosNuevos.json"
-        );
+        );*/
+        leeEmpleados(rutaEmpleados);
     }
 
     public static Empleado fromJsonToEmpleado(String rutaFichero) {
@@ -81,7 +82,7 @@ public class MainJson {
         return empleado;
     }
 
-    public static void leeEmpleados(String rutaFichero) {
+    public static  void leeEmpleados(String rutaFichero) {
 
         File fichero = new File(rutaFichero);
 
@@ -165,3 +166,43 @@ public class MainJson {
         }
     }
 }
+/*
+ Repositorio
+	private TreeSet<Persona> personas = new TreeSet<>(Persona.POR_EDAD);
+
+Modelo
+primero edad y despues nombre
+    public static final Comparator<Persona> POR_EDAD =
+        Comparator.comparing(Persona::getEdad)
+                  .thenComparing(Persona::getNombre);
+
+solo por nombre
+    public static final Comparator<Persona> POR_NOMBRE =
+        Comparator.comparing(Persona::getNombre);
+        
+Metodo
+public TreeSet<Persona> ordenar(TreeSet<Persona> personas) {
+    TreeSet<Persona> personasOrdenadas = new TreeSet<>(
+        Comparator.comparing(Persona::getEdad)
+                  .thenComparing(Persona::getNombre)
+    );
+
+    personasOrdenadas.addAll(personas);
+
+    return personasOrdenadas;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

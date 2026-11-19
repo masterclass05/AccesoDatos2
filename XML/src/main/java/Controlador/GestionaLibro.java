@@ -33,12 +33,12 @@ public class GestionaLibro {
 		
 		
 		
-		/* try { 
+		 try { 
              // 1. Crear el analizador DOM
              DocumentBuilderFactory factory =   DocumentBuilderFactory.newInstance();
              DocumentBuilder builder = factory.newDocumentBuilder();
              // 2. Leer el fichero XML
-             Document doc = builder.parse( new File(RUTA_RESOURCES + "libro.xml"));
+             doc = builder.parse( new File(RUTA_RESOURCES + "libro.xml"));
 
              // 3. Obtener el elemento titulo → El Quijote
              Element titulo = (Element) doc.getElementsByTagName("titulo").item(0);
@@ -48,7 +48,7 @@ public class GestionaLibro {
          }catch (Exception e) {
 			// TODO: handle exception
         	 logger.error("mal");
-		} */       
+		}       
      }
  
 

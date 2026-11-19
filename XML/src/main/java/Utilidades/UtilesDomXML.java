@@ -63,9 +63,11 @@ public class UtilesDomXML {
 		List<Libro> libros = new ArrayList<Libro>();
 		NodeList nodosLibro = librosElement.getElementsByTagName("libro");
 		for (int i = 0; i < nodosLibro.getLength(); i++) {
-			Libro l = this.fromElement2Libro(nodosLibro[i]);
+			Element librosElement1 = (Element) nodosLibro.item(i); 
+			Libro l = this.fromElement2Libro(librosElement1);
 			libros.add(l);
 		}
+		return libros;
 	}
 	
 }

@@ -1,0 +1,2 @@
+2026-11-19 08:13:56.724 [main] DEBUG Controlador.GestionaLibro - El Quijote
+2026-11-19 08:13:56.727 [main] INFO  Controlador.GestionaLibro - Libro [id=null, categoria=null, titulo=El quijote, autor=null]
